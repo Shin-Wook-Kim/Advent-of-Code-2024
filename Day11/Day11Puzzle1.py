@@ -2,7 +2,7 @@ stones = []
 
 
 
-with open("c:/Users/corpt/Documents/Advent-of-Code-2024/Day11/Day11Input1.txt", 'r') as file:
+with open("c:/Users/Shin/Documents/Advent-of-Code-2024/Day11/Day11Input1.txt", 'r') as file:
     file.seek(0)
     done = False
     while (not done):
@@ -35,6 +35,7 @@ def change(line):
 
 
 for i in range(25):
+    print(i)
     stones = change(stones)
 
 print(len(stones))
